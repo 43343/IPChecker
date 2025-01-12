@@ -1,0 +1,482 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9fc811f8b04c0b7bc736.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "miniupnp/miniupnpc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-miniupnp.miniupnpc-Release-fda0788a67f1ef0eb242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "miniupnp/miniupnpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IPChecker",
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "miniupnpc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@8baf480395280db1a5c7",
+					"jsonFile" : "target-Continuous-Release-bfab0316ac5e05515557.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousBuild-Release-48d930fdd6c8d5a39109.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousConfigure-Release-b0c75629613b95ac453d.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousCoverage-Release-581a91cc394eda9db6ed.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousMemCheck-Release-c2e9cddf53e2b893435b.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousStart-Release-d70900566568f5e71a46.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousSubmit-Release-3106ec48c520fef15b01.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousTest-Release-a5b40cf95b7b292001ae.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ContinuousUpdate-Release-83ba16c44de69beb545b.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@8baf480395280db1a5c7",
+					"jsonFile" : "target-Experimental-Release-4c4e971f3de6d3fabd16.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalBuild-Release-de95707ce8cfafbe39fe.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalConfigure-Release-1b4eb5586467a5e8b947.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalCoverage-Release-6fefa61d088237cd52bc.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-187a50cb12f4b0149930.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalStart-Release-fd4b592ed4df8424d2c5.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalSubmit-Release-c001b2b761fc8920b69a.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalTest-Release-5fd61df34152e2688e9b.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@8baf480395280db1a5c7",
+					"jsonFile" : "target-ExperimentalUpdate-Release-f26bbd4c548d45804542.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IPChecker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPChecker-Release-0a1ff1a6d9a18cfaec5b.json",
+					"name" : "IPChecker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IPChecker_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPChecker_autogen-Release-0c41fd3cc4fae1f8a02d.json",
+					"name" : "IPChecker_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IPChecker_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPChecker_autogen_timestamp_deps-Release-3db494ffaf1ec6cbdcf0.json",
+					"name" : "IPChecker_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@8baf480395280db1a5c7",
+					"jsonFile" : "target-Nightly-Release-19e4657dfc80960498a6.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyBuild-Release-7a32cbc91f6512ad2332.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyConfigure-Release-5a0e0a1f20dc776b2c1d.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyCoverage-Release-1f26b10320a9ef0198d2.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyMemCheck-Release-f7bbc4742c5c1fc4c713.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-d92f43a9ac8198603492.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyStart-Release-99abe2a14e4bd62e3a61.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlySubmit-Release-d21c95e5604123c6f3f7.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyTest-Release-e08c519515a3350fa4cc.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@8baf480395280db1a5c7",
+					"jsonFile" : "target-NightlyUpdate-Release-24663c1913de93fa5049.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libminiupnpc-shared::@8baf480395280db1a5c7",
+					"jsonFile" : "target-libminiupnpc-shared-Release-b4469735d3c6c9c2cf10.json",
+					"name" : "libminiupnpc-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libminiupnpc-static::@8baf480395280db1a5c7",
+					"jsonFile" : "target-libminiupnpc-static-Release-3e0fd79931e57f736c7f.json",
+					"name" : "libminiupnpc-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minixmlvalid::@8baf480395280db1a5c7",
+					"jsonFile" : "target-minixmlvalid-Release-9a56f95f3aaa7dd4f689.json",
+					"name" : "minixmlvalid",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testaddr_is_reserved::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testaddr_is_reserved-Release-de3cc59a78156ae424b5.json",
+					"name" : "testaddr_is_reserved",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testigddescparse::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testigddescparse-Release-b044baa0644e01c8b910.json",
+					"name" : "testigddescparse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testminiwget::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testminiwget-Release-47bad45fe1f4664462f7.json",
+					"name" : "testminiwget",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testminixml::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testminixml-Release-96c4e1c5181702ce70e9.json",
+					"name" : "testminixml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testportlistingparse::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testportlistingparse-Release-5ef59b9173c9b903de77.json",
+					"name" : "testportlistingparse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testupnpreplyparse::@8baf480395280db1a5c7",
+					"jsonFile" : "target-testupnpreplyparse-Release-14ff2b1116e3f381bde2.json",
+					"name" : "testupnpreplyparse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "upnp-listdevices-shared::@8baf480395280db1a5c7",
+					"jsonFile" : "target-upnp-listdevices-shared-Release-8dc090e34eeb8ef7a25b.json",
+					"name" : "upnp-listdevices-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "upnp-listdevices-static::@8baf480395280db1a5c7",
+					"jsonFile" : "target-upnp-listdevices-static-Release-c3accc23316ec3c1d10d.json",
+					"name" : "upnp-listdevices-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "upnpc-shared::@8baf480395280db1a5c7",
+					"jsonFile" : "target-upnpc-shared-Release-ee13462a25bac7b2ffb0.json",
+					"name" : "upnpc-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "upnpc-static::@8baf480395280db1a5c7",
+					"jsonFile" : "target-upnpc-static-Release-c538f0b53186eae9d308.json",
+					"name" : "upnpc-static",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Forty/Documents/IPChacker/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release",
+		"source" : "C:/Users/Forty/Documents/IPChacker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
